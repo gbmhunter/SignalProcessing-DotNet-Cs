@@ -31,7 +31,7 @@ namespace SignalProcessing
     /// <summary>
     /// Dependances: Requires the MathNet NeoDym library
     /// </summary>
-    class Averaging
+    public class Averaging
     {
         /// <summary>
         /// Offline algorithm. Implements a FIR filter. Moving window incorporates windowSize previous elements up to the current element.

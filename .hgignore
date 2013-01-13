@@ -1,0 +1,32 @@
+#*************************************************************************
+#***************************** C# IGNORE FILES ***************************
+#*************************************************************************
+
+# use regexp syntax
+syntax: regexp
+
+# Files that should be included:
+# .cs, .dll, .exe
+
+/?.*?/?.pdb # Backup of schematics
+/?.*?/?.user
+/?.*?/?.suo
+/?.*?/?.obj
+/?.*?/?.user
+/?.*?/?.pch
+/?.*?/?.vspscc
+/?.*?/?._i\.c
+/?.*?/?._p\.c
+/?.*?/?.ncb
+/?.*?/?.tlb
+/?.*?/?.tlh
+/?.*?/?.bak
+/?.*?/?.cache
+/?.*?/?.ilk
+/?.*?/?.log
+/?.*?/?.lib
+/?.*?/?.sbr
+/?.*?/?.scc
+
+/?.*?/?obj/.* # All files in "obj" folder (temporary object files for creating binary with
+/?.*?/?bin/.* # All files in bin folder (compiled binaries)

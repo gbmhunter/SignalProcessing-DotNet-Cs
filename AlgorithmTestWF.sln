@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual C# Express 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgorithmTestWF", "AlgorithmTestWF.csproj", "{7C441A76-930C-468A-864D-9E8ADF69D6D5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+		Release-Signed|Any CPU = Release-Signed|Any CPU
+		Release-Signed|Mixed Platforms = Release-Signed|Mixed Platforms
+		Release-Signed|x86 = Release-Signed|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C441A76-930C-468A-864D-9E8ADF69D6D5}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{7C441A76-930C-468A-864D-9E8ADF69D6D5}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{7C441A76-930C-468A-864D-9E8ADF69D6D5}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{7C441A76-930C-468A-864D-9E8ADF69D6D5}.Debug|x86.ActiveCfg = Debug|x86
+		{7C441A76-930C-468A-864D-9E8ADF69D6D5}.Debug|x86.Build.0 = Debug|x86
+		{7C441A76-930C-468A-864D-9E8ADF69D6D5}.Release|Any CPU.ActiveCfg = Release|x86
+		{7C441A76-930C-468A-864D-9E8ADF69D6D5}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{7C441A76-930C-468A-864D-9E8ADF69D6D5}.Release|Mixed Platforms.Build.0 = Release|x86
+		{7C441A76-930C-468A-864D-9E8ADF69D6D5}.Release|x86.ActiveCfg = Release|x86
+		{7C441A76-930C-468A-864D-9E8ADF69D6D5}.Release|x86.Build.0 = Release|x86
+		{7C441A76-930C-468A-864D-9E8ADF69D6D5}.Release-Signed|Any CPU.ActiveCfg = Release|x86
+		{7C441A76-930C-468A-864D-9E8ADF69D6D5}.Release-Signed|Mixed Platforms.ActiveCfg = Release|x86
+		{7C441A76-930C-468A-864D-9E8ADF69D6D5}.Release-Signed|Mixed Platforms.Build.0 = Release|x86
+		{7C441A76-930C-468A-864D-9E8ADF69D6D5}.Release-Signed|x86.ActiveCfg = Release|x86
+		{7C441A76-930C-468A-864D-9E8ADF69D6D5}.Release-Signed|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F2F8032B-A31D-4E33-A05E-F2CDCBFAA75D} = {4D50FB34-10BC-495A-8B2F-482E34B4D771}
+		{DAF07AA8-C5C9-4963-98F7-2C3285064DAD} = {4D50FB34-10BC-495A-8B2F-482E34B4D771}
+		{8239A6FF-1EF3-4DA4-A860-95C392DD6899} = {49EE74BD-301F-4C3B-B76A-07F90CC88CE7}
+		{BC81EA37-8EE6-4BF9-B8A9-B30497AEF8B1} = {49EE74BD-301F-4C3B-B76A-07F90CC88CE7}
+	EndGlobalSection
+EndGlobal

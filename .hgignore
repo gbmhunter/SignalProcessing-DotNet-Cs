@@ -6,13 +6,12 @@
 syntax: regexp
 
 # Files that should be included:
-# .cs, .dll, .exe
+# .cs, .dll, .sln, .csproj, .resx, .config, .settings
 
-/?.*?/?.pdb # Backup of schematics
-/?.*?/?.user
+/?.*?/?.pdb    # 
+/?.*?/?.user   # User files
 /?.*?/?.suo
-/?.*?/?.obj
-/?.*?/?.user
+/?.*?/?.obj    # Temp build files
 /?.*?/?.pch
 /?.*?/?.vspscc
 /?.*?/?._i\.c

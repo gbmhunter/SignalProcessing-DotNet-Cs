@@ -180,7 +180,7 @@ namespace AlgorithmTestWF
             ZedGraph.LineItem lineItem = zedGraph.GraphPane.AddCurve("Test data", pointPairList, Color.Blue);
 
             // Find local extrema
-            labelNumExtrema.Text = Convert.ToString(maxMinDetect.FindLocalExtrema(dataList));
+            labelNumExtrema.Text = Convert.ToString(maxMinDetect.FindLocalExtrema(filteredDataList));
 
             // Retrieve indecies of extrema
             List<int> maxima = maxMinDetect.GetMaxima();

@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalProcessing", "SignalProcessing\SignalProcessing.csproj", "{BC5873C5-D4E3-43EE-A646-DE4CC1986FE8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example-LocalExtrema", "Example-LocalExtrema\Example-LocalExtrema.csproj", "{7C441A76-930C-468A-864D-9E8ADF69D6D5}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BC5873C5-D4E3-43EE-A646-DE4CC1986FE8} = {BC5873C5-D4E3-43EE-A646-DE4CC1986FE8}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

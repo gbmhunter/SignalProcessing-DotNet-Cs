@@ -1,6 +1,6 @@
 ﻿//!
 //! @file 		MovingAverage.cs
-//! @author 	Geoffrey Hunter <gbmhunter@gmail.com>
+//! @author 	Geoffrey Hunter <gbmhunter@gmail.com> (www.cladlab.com)
 //! @edited 	n/a
 //! @date 		14/01/2013
 //! @brief 		Calculates averages from data.

@@ -1,12 +1,12 @@
 ﻿//!
 //! @file 		LocalExtremaTest.cs
-//! @author 	Geoffrey Hunter <gbmhunter@gmail.com>
+//! @author 	Geoffrey Hunter <gbmhunter@gmail.com> (www.cladlab.com)
 //! @edited 	n/a
 //! @date 		14/01/2013
 //! @brief 		Testing code for the local extrema algorithem.
 //! @details
-//!		<b>Last Modified:			</b> 14/01/2013			        		\n
-//!		<b>Version:					</b> v1.0.0				        		\n
+//!		<b>Last Modified:			</b> 16/01/2013			        		\n
+//!		<b>Version:					</b> v1.0.1				        		\n
 //!		<b>Company:					</b> CladLabs   				        \n
 //!		<b>Project:					</b> Signal Processing: Local Extrema	\n
 //!		<b>Language:				</b> C# (.NET)				        	\n
@@ -18,6 +18,10 @@
 //!		<b>License:					</b> GPLv3					        	\n
 //!
 //! Change the values in dataList to change what the algorithm performs extrema checking on.
+//!
+//! REVISION LOG:
+//!     v1.0.0      14/01/2013. Initial version
+//!     v1.0.1      16/01/2012. Changed example to match LocalExtrema changes (to version 1.1.0).
 //!
 
 using System;
@@ -46,8 +50,6 @@ namespace AlgorithmTestWF
         public LocalExtremaTest()
         {
             InitializeComponent();
-
-            comboBoxWindowingMode.SelectedIndex = 0;
             zedGraph.GraphPane.Title.Text = "Extrema Algorithm Test";
         }
 
@@ -110,16 +112,6 @@ namespace AlgorithmTestWF
             else
                 maxMinDetect.EnableThresholding(false);
 
-            // Set threshold window size based on UI
-            try
-            {
-                maxMinDetect.SetThresholdWindowRadius(Convert.ToInt32(textBoxThresholdWindowRadius.Text));
-            }
-            catch
-            {
-                maxMinDetect.SetThresholdWindowRadius(0);
-            }
-
             // Set threshold dataIList based on UI
             try
             {
@@ -129,14 +121,6 @@ namespace AlgorithmTestWF
             {
                 maxMinDetect.SetThreshold(0.0);
             }
-         
-            // Set windowing mode
-            if (comboBoxWindowingMode.SelectedItem == "Fixed")
-                maxMinDetect.SetWindowingMode(SignalProcessing.LocalExtremaDetection.WindowMode.fixedWidth);
-            else if (comboBoxWindowingMode.SelectedItem == "Dynamic")
-                maxMinDetect.SetWindowingMode(SignalProcessing.LocalExtremaDetection.WindowMode.dynamicWidth);
-            else
-                throw new System.IO.InvalidDataException("Invalid windowing mode");
 
             if(checkBoxEnableAlternateExtremaRule.Checked)
                 maxMinDetect.EnforceAlternateExtrema(true);

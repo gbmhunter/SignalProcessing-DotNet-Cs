@@ -44,6 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="WrapAroundDetection.cs" />
     <Compile Include="LocalExtrema.cs" />
     <Compile Include="MovingAverage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

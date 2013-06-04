@@ -5,7 +5,7 @@ Signal Processing Library For .NET
 - Author: gbmhunter <gbmhunter@gmail.com> (http://www.cladlab.com)
 - Created: 2013/01/13
 - Last Modified: 2013/06/04
-- Version: v2.0.0.1
+- Version: v2.0.0.2
 - Company: CladLabs
 - Project: Free Code Libraries
 - Language: C#
@@ -51,6 +51,7 @@ Usage
 Changelog
 =========
 
+- v2.0.0.2  -> (2013/06/04) Removed .hgignore and .hgtags files (leftover from Mercurial repo) from root.
 - v2.0.0.1  -> (2013/06/03) Added README.rst to repo.
 - v2.0.0.0  -> (2013/03/07) Added WrapAroundDetection algorithm. Tested and works fine.
 - v1.1.0.0  -> (2013/01/15) Changed the way the extrema detection algorithm works (especially thresholding).

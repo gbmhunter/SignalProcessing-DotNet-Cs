@@ -54,11 +54,15 @@ Usage
 Changelog
 =========
 
-- v2.0.0.3  -> (2013/06/04) Added ZedGraph and MathNet NeoDym to internal dependencies in README.
-- v2.0.0.2  -> (2013/06/04) Removed .hgignore and .hgtags files (leftover from Mercurial repo) from root.
-- v2.0.0.1  -> (2013/06/03) Added README.rst to repo.
-- v2.0.0.0  -> (2013/03/07) Added WrapAroundDetection algorithm. Tested and works fine.
-- v1.1.0.0  -> (2013/01/15) Changed the way the extrema detection algorithm works (especially thresholding).
-- v1.0.1.0  -> (2013/01/13) Split project into source code that generates a DLL and example window forms projects.
-- v1.0.0.0 	-> (2013/01/13) Initial commit. Contains LocalExrema and MovingAverage algorithms.
-
+======== ========== ===================================================================================================
+Version  Date       Comment
+======== ========== ===================================================================================================
+v2.0.0.4 2013/06/04 Formatted README Changelog into table.
+v2.0.0.3 2013/06/04 Added ZedGraph and MathNet NeoDym to internal dependencies in README.
+v2.0.0.2 2013/06/04 Removed .hgignore and .hgtags files (leftover from Mercurial repo) from root.
+v2.0.0.1 2013/06/03 Added README.rst to repo.
+v2.0.0.0 2013/03/07 Added WrapAroundDetection algorithm. Tested and works fine.
+v1.1.0.0 2013/01/15 Changed the way the extrema detection algorithm works (especially thresholding).
+v1.0.1.0 2013/01/13 Split project into source code that generates a DLL and example window forms projects.
+v1.0.0.0 2013/01/13 Initial commit. Contains LocalExrema and MovingAverage algorithms.
+======== ========== ===================================================================================================

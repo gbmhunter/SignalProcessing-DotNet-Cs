@@ -5,7 +5,7 @@ Signal Processing Library For .NET
 - Author: gbmhunter <gbmhunter@gmail.com> (http://www.cladlab.com)
 - Created: 2013/01/13
 - Last Modified: 2013/06/04
-- Version: v2.0.0.3
+- Version: v2.0.0.5
 - Company: CladLabs
 - Project: Free Code Libraries
 - Language: C#
@@ -57,6 +57,7 @@ Changelog
 ======== ========== ===================================================================================================
 Version  Date       Comment
 ======== ========== ===================================================================================================
+v2.0.0.5 2013/06/04 Fixed version number in README.
 v2.0.0.4 2013/06/04 Formatted README Changelog into table.
 v2.0.0.3 2013/06/04 Added ZedGraph and MathNet NeoDym to internal dependencies in README.
 v2.0.0.2 2013/06/04 Removed .hgignore and .hgtags files (leftover from Mercurial repo) from root.

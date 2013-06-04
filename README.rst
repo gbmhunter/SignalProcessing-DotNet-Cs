@@ -5,7 +5,7 @@ Signal Processing Library For .NET
 - Author: gbmhunter <gbmhunter@gmail.com> (http://www.cladlab.com)
 - Created: 2013/01/13
 - Last Modified: 2013/06/04
-- Version: v2.0.0.2
+- Version: v2.0.0.3
 - Company: CladLabs
 - Project: Free Code Libraries
 - Language: C#
@@ -24,12 +24,15 @@ A signal processing library written in C# for the .NET framework.
 Internal Dependencies
 =====================
 
-- None documented
+Internal dependencies are in "./lib/".
+
+- **MathNet Neodym.** Used for it's FIR filters to create moving averages.
+- **ZedGraph.** Graphing library for examples.
 
 External Dependencies
 =====================
 
-- None documented
+- None
 
 ISSUES
 ======
@@ -51,6 +54,7 @@ Usage
 Changelog
 =========
 
+- v2.0.0.3  -> (2013/06/04) Added ZedGraph and MathNet NeoDym to internal dependencies in README.
 - v2.0.0.2  -> (2013/06/04) Removed .hgignore and .hgtags files (leftover from Mercurial repo) from root.
 - v2.0.0.1  -> (2013/06/03) Added README.rst to repo.
 - v2.0.0.0  -> (2013/03/07) Added WrapAroundDetection algorithm. Tested and works fine.
